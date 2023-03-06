@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>React-CDN-Practice</title>
+        <script src="https://fb.me/react-15.0.2.js"></script>
+        <script src="https://fb.me/react-dom-15.0.2.js"></script>
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+	</head>
+    <body>
+        <div id="root"></div>
+        <script type="text/babel">
+			function App(){
+			//JSX
+				return <fieldset>
+				<img src="vamika.png" width="500px" height="500px"/>
+				<ul type="square">
+				<li style={{color:"pink"}}>Bhavani</li>
+				<li style={{color:"purple"}}>Samantha</li>
+				<li style={{color:"gray"}}>Yaswanth</li>
+				<li style={{color:"blue"}}>Charan</li>
+				<li style={{color:"green"}}>Virat</li>
+				</ul>
+				<h1 style={{color:"pink"}}>'Hello World!!!'</h1>
+				<h3 style={{color:"blue"}}>'Hello Galaxy!!!'</h3>
+				<h6 style={{color:"purple"}}>'Hello Universe!!!'</h6>
+				<p style={{color:"orange"}}>ReactJS is JavaScript library used for building reusable UI components. According to React official documentation, following is the definition −
+
+React is a library for building composable user interfaces. It encourages the creation of reusable UI components, which present data that changes over time. Lots of people use React as the V in MVC. React abstracts away the DOM from you, offering a simpler programming model and better performance. React can also render on the server using Node, and it can power native apps using React Native. React implements one-way reactive data flow, which reduces the boilerplate and is easier to reason about than traditional data binding.ReactJS is JavaScript library used for building reusable UI components. According to React official documentation, following is the definition −
+
+React is a library for building composable user interfaces. It encourages the creation of reusable UI components, which present data that changes over time. Lots of people use React as the V in MVC. React abstracts away the DOM from you, offering a simpler programming model and better performance. React can also render on the server using Node, and it can power native apps using React Native. React implements one-way reactive data flow, which reduces the boilerplate and is easier to reason about than traditional data binding.ReactJS is JavaScript library used for building reusable UI components. According to React official documentation, following is the definition −
+
+React is a library for building composable user interfaces. It encourages the creation of reusable UI components, which present data that changes over time. Lots of people use React as the V in MVC. React abstracts away the DOM from you, offering a simpler programming model and better performance. React can also render on the server using Node, and it can power native apps using React Native. React implements one-way reactive data flow, which reduces the boilerplate and is easier to reason about than traditional data binding.</p>
+				</fieldset>
+				
+			}
+            ReactDOM.render(
+				App(),
+                document.getElementById('root')
+            );
+    
+        </script>
+    </body>
+</html>
